@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "function CheckInput().js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>welcome to login</h1>
+    <p id = "loginStatus">Status of login</p> 
+    <br>
+    <form id="credSubmit" onsubmit= "return false">
+        First Name:        <input type= "text" id="fname"/>
+        <br>
+        Last Name:         <input type="text" id="lname"/>
+        <br>
+        Zip Code:             <input type="number" id="badgeNum"/>
+        <input type = "submit" onclick = "CheckInput();">
+    </form>
+</html>

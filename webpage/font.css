@@ -1,0 +1,49 @@
+h1
+{
+    color:green;
+    text-align: center;
+}
+nav
+{
+    background-color: hotpink;
+    display: block;
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+body{
+   /* background-color: grey; 
+    background-image: linear-gradient(grey, blue); */
+    background-image: radial-gradient(purple, red);
+    background-repeat: no-repeat;
+}
+
+.buttonsJC
+{
+   background-color: aqua; 
+   border-color: darkslateblue;
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   border-style: dashed;
+   cursor: pointer;
+}
+
+footer
+{
+    background-color: dodgerblue;
+    text-align: center;
+    margin-right: 200px;
+}
+
+button
+{
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-style: dashed;
+    cursor: pointer;
+}
